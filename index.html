@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- Bootstrap CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Google fonts roboto -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link href="./css/main.css" rel="stylesheet" />
+
+    <title>PokéPédia</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <span class="material-icons d-inline-block align-top">
+                pageview
+              </span>
+              PokéPédia
+            </a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container pt-3">
+      <div class="row">
+        <form action="" class="search">
+          <div class="input-group">
+            <input 
+              type="text" 
+              id="search-input" 
+              class="form-control search-input" 
+              aria-label="Procurar por um pokémon com o nome ou número do pokédex"
+              placeholder="Procurar por um pokémon com o nome ou número do pokédex" 
+            >
+            <button class="btn btn-outline-primary button-eletric-outline search-button" type="button">Pesquisar</button>
+          </div>
+        </form>
+      </div>
+      
+      <section class="pokemon row d-flex justify-content-center pt-5">
+        
+      </section>
+      <span class="error">Não encontrado</span>
+    </main>
+
+    <!-- Bootstrap's optional JavaScript -->
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="./js/main.js"></script>
+
+  </body>
+</html>

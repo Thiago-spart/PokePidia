@@ -1,0 +1,68 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+a {
+  color: var(--eletric);
+}
+
+a:hover {
+  color: var(--eletric-dark);
+}
+
+.error {
+  display: none;
+  font-size: 1.5em;
+}
+
+.card {
+  width: 26rem;
+}
+
+.header-eletric {
+  background-color: var(--dark);
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: var(--medium);
+  font-weight: 400;
+}
+
+.block {
+  margin-bottom: 120px;
+}
+
+.button-eletric {
+  font-weight: 500;
+  background-color: var(--eletric);
+  border-color: var(--eletric);
+  color: var(--dark);
+}
+
+.button-eletric:hover {
+  background-color: var(--eletric-dark);
+  border-color: var(--eletric-dark);
+  color: var(--light);
+}
+
+.button-eletric-outline {
+  
+  font-weight: 500;
+  border-color: var(--dark);
+  color: var(--dark);
+}
+
+.button-eletric-outline:hover {
+  background-color: var(--eletric-dark);
+  border-color: var(--eletric-dark);
+  color: var(--dark);
+}
