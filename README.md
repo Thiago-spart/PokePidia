@@ -1,7 +1,7 @@
 # PokePidia :space_invader:
 
 <p align="center">
-	PokePidia is a simple example of an API consuming data from [PokéAPI](https://pokeapi.co) with JS.
+	PokePidia is a simple example of an API consuming data from <a href="https://pokeapi.co">PokéAPI</a> with JS.
 </p>
 
 <h4 align="center"> 
@@ -34,13 +34,13 @@
 2. Select any index.html inside the projects 
 3. Done! 🚀
 
-## Technologies Versions 🛠 : 
+## Technologies Versions 🛠 
 
 - HTML 5
 - CSS 3
-- Boostrap 5
+- Bootstrap 5
 - ECMA 6
 
-## License :roll_of_paper:
+## License 📜
 
 [MIT](./LICENSE)
